@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Card Llog in  </title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+      <header>
+         <div class="container">
+             <div class="fixedHreader">
+                <div class="content_header">
+                    <div class="content_logo">
+                        <a href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <nav>
+                        <ul class="list_header" id="links">
+                            <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i>  Sign In</a></li>
+                            <li><a href="register.html"><i class="fa fa-user-plus"></i>Sign Up</a></li>
+                        </ul>
+                        <ul class="info_user"> 
+                              <li id="user" class="MYinfo"><a href="myProfile.html"><i class="fa fa-user "></i> </a></li>
+                              <li class="MYinfo"><a href="myProducts.html"><i class="fa fa-user "></i> My Products</a></li>
+                              <li class="shoppingCard"><span id="brande1">0</span><a href="favorite.html"><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                              <li class="shoppingCard"><span id="brande">0</span><a href="place_add_to_card.html"><i class=" fa fa-cart-plus "></i></a> </li>
+                              <li id="logout"  class="shoppingCard"><a href="register.html"><i class=" fa fa-sign-out "></i></a></li>
+                   
+                        </ul>
+                    </nav>
+                </div>
+             </div>
+            
+         </div> 
+      </header>  
+ <section class="home">
+      <div class="container">
+          
+        <input type="search" id="search" placeholder="Search By Name">
+          <a  id="ican_create_product" ><i class="fa fa-plus"></i></a>
+        
+          <select id="selectSize">
+              <option value="" hidden>Filter By Size</option>
+              <option value="all">All</option>
+              <option value="small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+          </select>
+          <div class="content_products">
+                           
+          </div>
+      </div>
+ </section>
+ <script src="js/chechLOgin.js"></script>
+ <script src="js/data.js"></script>
+ <script src="js/drawhtml.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>

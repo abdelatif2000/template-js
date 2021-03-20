@@ -1,0 +1,19 @@
+img {
+    width: 100%;
+    /* /* object-fit: contain ,cover; * height / */
+}
+h2 {
+    font-size: 32px;
+}
+span {
+    font-size: 30px;
+}
+.left {
+   float: left;
+    width: 48%;
+}
+.righht {
+   float: left;
+    width: 40%;
+    margin-left: 50px;
+}
